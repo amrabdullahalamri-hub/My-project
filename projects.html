@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects university</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Tahoma;
+        }
+
+        body{
+            background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:30px;
+        }
+
+        .container{
+            width:100%;
+            max-width:700px;
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 0 30px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:30px;
+            color:#1e3a8a;
+            font-size:35px;
+        }
+
+        label{
+            display:block;
+            margin-bottom:8px;
+            font-size:18px;
+            font-weight:bold;
+            color:#334155;
+        }
+
+        input,
+        select{
+            width:100%;
+            padding:14px;
+            margin-bottom:20px;
+            border:2px solid #cbd5e1;
+            border-radius:12px;
+            font-size:16px;
+            transition:0.3s;
+        }
+
+        input:focus,
+        select:focus{
+            border-color:#2563eb;
+            outline:none;
+            box-shadow:0 0 10px rgba(37,99,235,0.3);
+        }
+
+        button{
+            width:100%;
+            padding:15px;
+            border:none;
+            border-radius:12px;
+            background:#2563eb;
+            color:white;
+            font-size:20px;
+            cursor:pointer;
+            transition:0.3s;
+            font-weight:bold;
+        }
+
+        button:hover{
+            background:#1d4ed8;
+            transform:scale(1.02);
+        }
+
+        @media(max-width:768px){
+
+            .container{
+                padding:25px;
+            }
+
+            h1{
+                font-size:28px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>بيانات الثانوية العامة</h1>
+
+        <form action="lab6.html" method="post">
+
+            <label for="mohamed">نوع الثانوية</label>
+
+            <select id="mohamed">
+
+                <option>-----</option>
+                <option>علمي</option>
+                <option>ادبي</option>
+                <option> وافد</option>
+
+            </select>
+
+            <label for="em">عام التخرج</label>
+
+            <input
+                type="text"
+                required
+                id="em">
+
+            <label for="dh">معدل الثانوية</label>
+
+            <input
+                type="text"
+                required
+                id="dh">
+
+            <label for="tyu">المدينة</label>
+
+            <select id="tyu">
+
+                <option>-----</option>
+                <option>تعز</option>
+                <option>مارب</option>
+                <option>عدن</option>
+                <option>لحج</option>
+                <option>الضالع</option>
+                <option>الحديدة</option>
+                <option>صعدة</option>
+                <option>إب</option>
+                <option>ذمار</option>
+                <option>عمران</option>
+                <option>صنعاء</option>
+                <option>أبين</option>
+                <option>الجوف</option>
+                <option>شبوة</option>
+
+            </select>
+
+            <label for="alu">اسم المدرسة</label>
+
+            <input
+                type="text"
+                id="alu"
+                required>
+
+            <label for="dd">رقم الجلوس</label>
+
+            <input
+                type="number"
+                id="dd"
+                required>
+
+            <label for="tyr">الدولة</label>
+
+            <select id="tyr">
+
+                <option>-----</option>
+                <option>اليمن</option>
+                <option>السعودية</option>
+                <option>الإمارات</option>
+                <option>عمان</option>
+                <option>الكويت</option>
+                <option>قطر</option>
+                <option>العراق</option>
+                <option>لبنان</option>
+                <option>تركيا</option>
+                <option>فلسطين</option>
+                <option>المغرب</option>
+                <option>الجزائر</option>
+                <option>أمريكا</option>
+
+            </select>
+
+            <label for="err">المديرية</label>
+
+            <select id="err">
+
+                <option>-----</option>
+                <option>المسراخ</option>
+                <option>المعافر</option>
+                <option>مشرعة وحدنان</option>
+                <option>جبل حبشي</option>
+                <option>التعزية</option>
+                <option>صالة</option>
+                <option>المظفر</option>
+                <option>الشمايتين</option>
+                <option>مقبنة</option>
+                <option>المخاء</option>
+                <option>الوازعية</option>
+                <option>الصلو</option>
+                <option>ذباب</option>
+                <option>صبر الموادم</option>
+                <option>شرعب السلام</option>
+                <option>شرعب الرونة</option>
+                <option>حيفان</option>
+                <option>سامع</option>
+                <option>ماوية</option>
+
+            </select>
+
+            <button type="submit">
+                حفظ والانتقال التالي
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+     <!--
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects universt</title>
+</head>
+<body>
+        <div>
+            <form action="lab6.html" method="">
+              <label for="mohamed">نوع الثانويه</label><br>
+         <select name="------" id="mohamed">
+            <optgroup >
+                <option value="">-----</option>
+                <option value="">علمي</option>
+                 <option value="">ادبي</option>
+                   <option value="">غير ذالك</option>
+                      </optgroup>
+                      </select><br><br>
+          <label for="em">عام التخرج </label><br>
+        <input type="text" required id="em" placeholder=""><br><br>
+        <label for="dh">معدل الثانويه </label><br>
+        <input type="text" required id="dh" placeholder=""><br><br>
+         <label for="tyu">المدينه</label><br>
+         <select name="------" id="tyu">
+            <optgroup >
+                <option value="">-----</option>
+                <option value="">تعز</option>
+                 <option value="">مارب</option>
+                   <option value="">عدن</option>
+                     <option value="">لحج</option>
+                      <option value="">الضالع</option>
+                       <option value="">الحديد</option>
+                        <option value="">صعده</option>
+                         <option value="">اب</option>
+                 <option value="">ذمار</option>
+                   <option value="">عمران</option>
+                     <option value="">صنعاء</option>
+                      <option value="">زبيد</option>
+                       <option value="">ابين</option>
+                        <option value="">الجوف</option>
+                        <option value="">شبوه</option>
+            </optgroup>
+         </select><br><br>
+         <label for="alu">اسم المدرسه</label><br>
+         <input type="text" id="alu" required placeholder=""><br><br>
+          <label for="dd">رقم الجلوس  </label><br>
+         <input type="number" id="dd" required placeholder=""><br><br>
+         <label for="tyr"> الدولة  </label><br>
+         <select name="------" id="tyr">
+            <optgroup >
+                <option value="">-----</option>
+                <option value="">اليمن</option>
+                 <option value="">السعوديه</option>
+                   <option value="">الامارت</option>
+                     <option value="">عمان</option>
+                      <option value="">الكويت</option>
+                       <option value="">قطر</option>
+                        <option value="">العرق</option>
+                         <option value="">لبنان</option>
+                 <option value="">تركيا</option>
+                   <option value="">فلسطين</option>
+                     <option value="">المغرب</option>
+                      <option value="">الجزائر</option>
+                       <option value="">امريكا</option>
+                        <option value="">اسرائيل</option>
+            </optgroup>
+         </select><br><br>
+         <label for="err">المديرية</label><br>
+         <select name="------" id="err">
+            <optgroup >
+                <option value="">-----</option>
+                <option value="">المسراخ</option>
+                 <option value="">المعافر</option>
+                   <option value="">مشرعه وحدنان</option>
+                     <option value="">جبل حبشي</option>
+                      <option value="">التعزيه</option>
+                       <option value="">القاهر</option>
+                        <option value="">صاله</option>
+                         <option value="">المظفر</option>
+                 <option value="">الشمايتين</option>
+                   <option value="">مقبنه</option>
+                     <option value="">المخاء</option>
+                      <option value="">الوازعيه</option>
+                       <option value="">الصلو</option>
+                        <option value="">ذباب</option>
+                         <option value="">صبر الموادم</option>
+                   <option value="">شرعب السلام</option>
+                     <option value="">شرعب الرونه</option>
+                      <option value="">حيفان</option>
+                       <option value="">سامع</option>
+                        <option value="">ماويه</option>
+            </optgroup>
+         </select><br><br>
+         <p> <button type="submit">حفظ والانتقال التالي   </button> </p>
+         </form>
+        </div>
+        
+    
+</body>
+</html>-->
